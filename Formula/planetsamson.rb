@@ -1,13 +1,13 @@
 class Planetsamson < Formula
   desc "Planet Samson Desktop application"
   homepage "https://github.com/planetsamson/development"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-macos-arm64.tar.gz"
-      sha256 "ea231d04bfec82dade94cc7fb95492bbef2f29100f09ebb1dce6ea059cf660f3"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.1/planetsamson-macos-arm64.tar.gz"
+      sha256 "281e39ac47d192bffd00a3dd3670f663d7ba00929fd2996b3615348d0bcbb795"
 
       def install
         prefix.install "planetsamson.app"
@@ -16,8 +16,8 @@ class Planetsamson < Formula
     end
 
     on_intel do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-macos-x64.tar.gz"
-      sha256 "abf9ce62bfb910b0c5c660e035461129a14a726c672dd9b7b6f354a7ff51e074"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.1/planetsamson-macos-x64.tar.gz"
+      sha256 "e049b5379a3324ebc495b341757f6477407b183214810f6fe11a27e2f80cc679"
 
       def install
         prefix.install "planetsamson.app"
@@ -28,8 +28,8 @@ class Planetsamson < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-linux-x64.tar.gz"
-      sha256 "9a322393a3dd9be74c36125873dcbf2335b38de04e27ef96d96c73c890eec959"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.1/planetsamson-linux-x64.tar.gz"
+      sha256 "62f7b41f475e38b31f59bbf34f0d6deb63161900869e5f80bacd622272b4322f"
 
       def install
         libexec.install Dir["*"]
@@ -38,8 +38,8 @@ class Planetsamson < Formula
     end
 
     on_arm do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-linux-arm64.tar.gz"
-      sha256 "13c8928fc1b2bb054dc8c374f6428b939b8db72883b8ca99a2a2a13a2cb5945d"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.1/planetsamson-linux-arm64.tar.gz"
+      sha256 "ea98c770f55b8e6932414d741c94e4c4a05d7aac246a3b2013a69b04c07c2a29"
 
       def install
         libexec.install Dir["*"]
