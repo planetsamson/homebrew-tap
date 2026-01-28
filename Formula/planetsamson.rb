@@ -6,7 +6,7 @@ class Planetsamson < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-macos-arm64.tar.gz"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-macos-arm64.tar.gz"
       sha256 "PLACEHOLDER"
 
       def install
@@ -16,7 +16,7 @@ class Planetsamson < Formula
     end
 
     on_intel do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-macos-x64.tar.gz"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-macos-x64.tar.gz"
       sha256 "PLACEHOLDER"
 
       def install
@@ -28,7 +28,7 @@ class Planetsamson < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-linux-x64.tar.gz"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-linux-x64.tar.gz"
       sha256 "PLACEHOLDER"
 
       def install
@@ -38,7 +38,7 @@ class Planetsamson < Formula
     end
 
     on_arm do
-      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-linux-arm64.tar.gz"
+      url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetsamson-linux-arm64.tar.gz"
       sha256 "PLACEHOLDER"
 
       def install
