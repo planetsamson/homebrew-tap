@@ -7,7 +7,7 @@ class Planetdan < Formula
   on_macos do
     on_arm do
       url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-macos-arm64.tar.gz"
-      sha256 "c858deaed202c8e6868cccca752f81a5dae574cbcfd241702eb0eb3104ab76fb"
+      sha256 "47293c39223a10610a50637172102420200a3bc5f568a770afede60cd2c3bf86"
 
       def install
         prefix.install "planetdan.app"
@@ -17,7 +17,7 @@ class Planetdan < Formula
 
     on_intel do
       url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-macos-x64.tar.gz"
-      sha256 "73be368463552f8ffd15202513cec71f7f35a3b0780b80ef7e37939f2f7c5c8f"
+      sha256 "828e743c94ce9e1af33078006ee68cb9ab86ada8f76c70a378c675328aee1bd9"
 
       def install
         prefix.install "planetdan.app"
@@ -29,7 +29,7 @@ class Planetdan < Formula
   on_linux do
     on_intel do
       url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-linux-x64.tar.gz"
-      sha256 "69086f27d10b261540e8408dc94b236d52202fa45a7eae1e10a84fee79316e11"
+      sha256 "55e056a3a17df07f1805a72c81a4e3c95516d53f0d836245117296cb7b0830c6"
 
       def install
         libexec.install Dir["*"]
@@ -39,7 +39,7 @@ class Planetdan < Formula
 
     on_arm do
       url "https://github.com/planetsamson/desktop-releases/releases/download/v1.0.0/planetdan-linux-arm64.tar.gz"
-      sha256 "5102ac9c995b3c0588091b653bc358fb5f14e5806c200cd52ede3f6282331ab2"
+      sha256 "e3d94c08d2aa9172b07f3e3630d667172a078849fc0f720005534dfb33859aca"
 
       def install
         libexec.install Dir["*"]
